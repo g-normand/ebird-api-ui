@@ -1,5 +1,6 @@
 import classNames from '../../utilities/classNames';
 import type { TableColumn } from '../Table/Table';
+import './TableCell.scss';
 
 type Props<T> = Omit<TableColumn<T>, 'label'> & { item: T };
 

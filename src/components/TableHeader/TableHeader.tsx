@@ -1,8 +1,8 @@
 import type { ReactNode } from 'react';
 
 import classNames from '../../utilities/classNames';
-
 import type { TableColumn } from '../Table/Table';
+import './TableHeader.scss';
 
 type Props<T> = Pick<TableColumn<T>, 'align' | 'label'> & {
   sortControls?: ReactNode;

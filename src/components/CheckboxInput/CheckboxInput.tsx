@@ -1,5 +1,7 @@
 import { type ChangeEvent } from 'react';
 
+import './CheckboxInput.scss';
+
 export interface CheckboxInputProps {
   disabled?: boolean;
   id: string;

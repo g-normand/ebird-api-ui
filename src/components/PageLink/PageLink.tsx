@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import type PageLinkInterface from '../../types/Page';
 import Tooltip from '../Tooltip/Tooltip';
+import './PageLink.scss';
 
 export default function PageLink({
   description,

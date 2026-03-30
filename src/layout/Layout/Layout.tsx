@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import './Layout.scss';
 
 interface Props {
   children?: ReactNode;

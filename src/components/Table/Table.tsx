@@ -5,6 +5,7 @@ import TableCell from '../TableCell/TableCell';
 import TableHeader from '../TableHeader/TableHeader';
 import usePagination from '../../hooks/usePagination';
 import TableSortControls from '../TableSortControls/TableSortControls';
+import './Table.scss';
 
 type Sort<T> = (items: T[]) => T[];
 

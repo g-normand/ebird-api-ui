@@ -5,6 +5,7 @@ import CoordinateInput from '../CoordinateInput';
 import { updateIsLoadingPosition } from '../../store/slices/loadingSlice';
 import useAppDispatch from '../../store/hooks/useAppDispatch';
 import useAppSelector from '../../store/hooks/useAppSelector';
+import './LocationInputGroup.scss';
 
 interface Props {
   latitude: string;

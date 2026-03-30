@@ -7,6 +7,7 @@ import {
 } from '../BasePage/BasePage';
 import Pagination from '../Pagination/Pagination';
 import usePagination from '../../hooks/usePagination';
+import './BasePageList.scss';
 
 type Props = Omit<BasePageProps<string[]>, 'onLoad' | 'resultsSections'>;
 

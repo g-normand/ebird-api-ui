@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 
 import classNames from '../../utilities/classNames';
+import './Notification.scss';
 
 type NotificationType = 'info';
 

@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 
 import classNames from '../../utilities/classNames';
 import useAppSelector from '../../store/hooks/useAppSelector';
+import './Button.scss';
 
 export interface ButtonProps {
   children?: ReactNode;

@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 import classNames from '../../utilities/classNames';
 import type Page from '../../types/Page';
+import './NavMenu.scss';
 
 interface Props {
   alignToRight?: boolean;

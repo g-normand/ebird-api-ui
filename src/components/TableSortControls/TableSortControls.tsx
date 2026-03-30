@@ -1,4 +1,5 @@
 import { type SortConfig, SortDirection } from '../Table/Table';
+import './TableSortControls.scss';
 
 interface Props<T> {
   activeSortConfig: SortConfig<T> | undefined;

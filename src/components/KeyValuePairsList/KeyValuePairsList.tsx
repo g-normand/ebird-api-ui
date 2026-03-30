@@ -1,3 +1,5 @@
+import './KeyValuesPairsList.scss';
+
 interface Props {
   keyValuePairs: KeyValueTuple[];
 }

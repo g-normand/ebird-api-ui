@@ -5,6 +5,7 @@ import { Button } from '../Button/Button';
 import { updateApiKey } from '../../store/slices/apiKeySlice';
 import useAppDispatch from '../../store/hooks/useAppDispatch';
 import useAppSelector from '../../store/hooks/useAppSelector';
+import './ApiKeyInput.scss';
 
 export default function ApiKeyInput() {
   const apiKey = useAppSelector((state) => state.apiKey.value);

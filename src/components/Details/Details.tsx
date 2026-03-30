@@ -1,5 +1,7 @@
 import { type ReactNode } from 'react';
 
+import './Details.scss';
+
 interface Props {
   children?: ReactNode;
   open?: boolean;

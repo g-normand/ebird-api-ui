@@ -3,6 +3,7 @@ import { type ChangeEvent } from 'react';
 import classNames from '../../utilities/classNames';
 import getValueFromChangeEvent from '../../utilities/getValueFromChangeEvent';
 import useAppSelector from '../../store/hooks/useAppSelector';
+import './BaseInput.scss';
 
 export interface BaseInputProps {
   disabled?: boolean;

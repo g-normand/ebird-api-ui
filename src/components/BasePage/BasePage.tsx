@@ -10,6 +10,7 @@ import type Page from '../../types/Page';
 import { updateIsLoadingReqeust } from '../../store/slices/loadingSlice';
 import useAppDispatch from '../../store/hooks/useAppDispatch';
 import useAppSelector from '../../store/hooks/useAppSelector';
+import './BasePage.scss';
 
 export interface ResultsSection {
   content: ReactNode;

@@ -14,9 +14,6 @@
     padding: var(--spacing-regular);
   }
 
-  &__description {
-  }
-
   &__form {
     @include mixins.paper;
     width: 100%;

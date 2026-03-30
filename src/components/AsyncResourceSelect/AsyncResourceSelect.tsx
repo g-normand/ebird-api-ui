@@ -4,6 +4,7 @@ import Tooltip from '../Tooltip/Tooltip';
 import { Button } from '../Button/Button';
 import { Select, type SelectProps } from '../Select/Select';
 import useAppSelector from '../../store/hooks/useAppSelector';
+import './AsyncResourceSelect.scss';
 
 export interface AsyncResourceSelectProps<T> extends SelectProps<string> {
   hasQueried: boolean;

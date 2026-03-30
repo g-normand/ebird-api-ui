@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import { Button, type ButtonProps } from '../Button/Button';
 import classNames from '../../utilities/classNames';
+import './CopyRawResponseButton.scss';
 
 type Props = Required<Pick<ButtonProps, 'onClick'>>;
 

@@ -4,6 +4,7 @@ import { Button } from '../Button/Button';
 import { Select, type SelectOptionArray } from '../Select/Select';
 import { NumberInput } from '../NumberInput';
 import usePaginationBounds from '../../hooks/usePaginationBounds';
+import './Pagination.scss';
 
 interface Props {
   itemsPerPage: number;

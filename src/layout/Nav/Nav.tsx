@@ -5,6 +5,7 @@ import observationsPages from '../../pages/obs/pages';
 import productPages from '../../pages/product/pages';
 import regionPages from '../../pages/ref/region/pages';
 import taxonomyPages from '../../pages/ref/taxonomy/pages';
+import './Nav.scss';
 
 export default function Nav() {
   return (

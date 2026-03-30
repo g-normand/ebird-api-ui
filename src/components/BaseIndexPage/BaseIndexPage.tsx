@@ -1,5 +1,6 @@
 import PageLink from '../PageLink/PageLink';
 import type Page from '../../types/Page';
+import './BaseIndexPage.scss';
 
 interface Props {
   description: string;
