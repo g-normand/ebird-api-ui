@@ -5,7 +5,7 @@ import classNames from '../../utilities/classNames';
 import type Page from '../../types/Page';
 import './NavMenu.scss';
 
-interface Props {
+export interface Props {
   alignToRight?: boolean;
   folderLabel: string;
   folderPath: string;
