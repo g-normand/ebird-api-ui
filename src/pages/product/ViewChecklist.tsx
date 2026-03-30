@@ -60,7 +60,7 @@ interface EbirdChecklistAuxAi {
 }
 
 interface EbirdChecklistObservation {
-  hideFlags: unknown[];
+  hideFlags?: unknown[];
   howManyAtLeast: number;
   howManyAtMost: number;
   howManyStr: string;
@@ -131,7 +131,7 @@ export default function ViewChecklist() {
     const obervationTableColumns: TableColumnArray<EbirdChecklistObservation> =
       [
         {
-          callback: ({ hideFlags }) => hideFlags.join(''),
+          callback: ({ hideFlags }) => hideFlags?.join(''),
           label: 'hideFlags',
         },
         {
